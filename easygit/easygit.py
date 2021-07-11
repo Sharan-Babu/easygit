@@ -73,5 +73,3 @@ class Easygit:
 				break
 			else:
 				self.query(query)	
-c = Easygit()
-c.interactive()
