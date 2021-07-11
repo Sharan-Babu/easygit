@@ -3,7 +3,7 @@ from colorama import Fore, Back, Style, init
 import requests
 
 class Easygit:
-	def __init__(self, access_token="TG2TPBING3AATILZB5KZN4DKRPRTEARE"):
+	def __init__(self, access_token="KLQTSWHCTIEB2H527HH4GAPXN7HXQLP6"):
 		self.access_token = access_token
 		self.client = Wit(access_token)
 		self.intent_list = {"name1","name2","dashboard_features"}
