@@ -26,8 +26,46 @@ class Easygit:
 			self.red_print("Internet Connection Required\n")
 
 	def process(self,text):
-		if text == 'dashboard_features':
-			self.green_print("git clone <repo>")						
+		if text == 'git_clone':
+			self.green_print("git clone <repo>")
+		elif text == 'git_init':
+			self.green_print("git init")
+		elif text == 'git_clone':
+			self.green_print("git clone <repo>")
+		elif text == 'git_branch':
+			self.green_print("git branch <branch_name>")
+		elif text == 'git_checkout_branch':
+			self.green_print("git checkout -b <branch_name>")
+		elif text == 'git_remote':
+			self.green_print("git push -u <remote> <branch_name>")
+		elif text == 'git_add':
+			self.green_print("git add <file_name>")
+		elif text == 'git_add_all':
+			self.green_print("git add -A")
+		elif text == 'git_commit':
+			self.green_print("git commit -a")
+		elif text == 'git_commit_message':
+			self.green_print("git commit -am <commit-message>")
+		elif text == 'git_push':
+			self.green_print("git push <remote> <branch_name>")
+		elif text == 'git_pull':
+			self.green_print("git pull <remote>")
+		elif text == 'git_diff':
+			self.green_print("git diff <firstbranch_name> <Secondbranch_name>")
+		elif text == 'git_status':
+			self.green_print("git status")
+		elif text == 'git_stash':
+			self.green_print("git stash")
+		elif text == 'git_show':
+			self.green_print("git show <commit_name>")
+		elif text == 'git_mv':
+			self.green_print("git mv <old-file-name> <new-file-name>")
+		elif text == 'git_merge':
+			self.green_print("git checkout <final-branch>")
+			self.green_print("git pull")
+			self.green_print("git merge <current-branch>")
+
+						
 
 	def green_print(self,text):
 		print(Fore.GREEN + Style.BRIGHT + text + Style.RESET_ALL)
