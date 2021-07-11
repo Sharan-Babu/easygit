@@ -1,4 +1,4 @@
-from easygit import Easygit
+from easygit.easygit import Easygit
 
 def test_app():
     git = Easygit()
