@@ -38,7 +38,9 @@ git.query("How to clone a repository using git?")
 ~~~
 
 Output:<br>
-`git clone <repository_web_url>`
+~~~
+git clone <repository_web_url>
+~~~
 
 ### 2) `interactive()` 
 Used to start interactive mode in terminal.
