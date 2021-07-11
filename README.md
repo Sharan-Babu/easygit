@@ -16,6 +16,11 @@ git.interactive()
 pip install easygit
 ~~~
 
+## Upgrade Package to latest version
+~~~
+pip install --upgrade easygit
+~~~
+
 ## Cloning repo 
 _Note_: Will likely contain changes not yet released in PyPI library.
 ~~~
