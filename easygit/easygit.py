@@ -24,7 +24,7 @@ class Easygit:
 				else:
 					self.get_result(intent)
 		except:
-			self.cyan_print("Internet Connection Required")
+			self.red_print("Internet Connection Required\n")
 
 	def process(self,text):
 		if text == 'dashboard_features':
@@ -36,11 +36,14 @@ class Easygit:
 	def red_print(self,text):
 		print(Fore.RED + Style.BRIGHT + text + Style.RESET_ALL)
 
+	def magenta_print(self,text):
+		print(Fore.MAGENTA + Style.BRIGHT + text + Style.RESET_ALL)
+
 	def yellow_print(self,text):
-		print(Fore.YELLOW + Style.BRIGHT + text + Style.RESET_ALL,end=" ")
+		print(Fore.YELLOW + Style.BRIGHT + text + Style.RESET_ALL)	
 
 	def cyan_print(self,text):
-		print(Fore.CYAN + Style.BRIGHT + text + Style.RESET_ALL)	
+		print(Fore.CYAN + Style.BRIGHT + text + Style.RESET_ALL,end=" ")	
 
 	def get_result(self,intent_name):
 		URL = "https://raw.githubusercontent.com/Sharan-Babu/easygit/main/easygit/new_intents.txt"
@@ -61,12 +64,14 @@ class Easygit:
 		self.green_print(output)
 
 	def interactive(self):
-		self.cyan_print("Interactive mode:")
+		self.magenta_print("Interactive mode:")
 		while True:
-			self.yellow_print("\nEnter your query:")
+			self.cyan_print("\nEnter your query:")
 			query = input()
 			if query.lower() == 'quit':
-				self.cyan_print("You exited interactive mode")
+				self.magenta_print("You exited interactive mode")
 				break
 			else:
 				self.query(query)	
+c = Easygit()
+c.interactive()
