@@ -43,7 +43,7 @@ class Easygit:
 		print(Fore.CYAN + Style.BRIGHT + text + Style.RESET_ALL)	
 
 	def get_result(self,intent_name):
-		URL = "https://raw.githubusercontent.com/Sharan-Babu/Paper-Search-ElasticSearch/main/test.txt"
+		URL = "https://raw.githubusercontent.com/Sharan-Babu/easygit/main/easygit/new_intents.txt"
 		req = requests.get(URL)
 		req = req.text
 
