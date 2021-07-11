@@ -1,0 +1,12 @@
+The following is the format for adding new intents.
+Syntax:
+##
+Intent name and response: <intent_name>=<response>.
+
+Replace the values within '<>' accordingly.
+
+##
+Intent name and response: new_intent=hi man.
+
+##
+Intent name and response: dashboard_features=great.
