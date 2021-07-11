@@ -6,7 +6,7 @@ class Easygit:
 	def __init__(self, access_token="KLQTSWHCTIEB2H527HH4GAPXN7HXQLP6"):
 		self.access_token = access_token
 		self.client = Wit(access_token)
-		self.intent_list = {"name1","name2","dashboard_features"}
+		self.intent_list = {"git_add","git_add_all","git_branch","git_checkout_branch","git_clone","git_commit","git_commit_message","git_diff","git_merge","git_mv","git_pull","git_push","git_remote","git_show","git_stash","git_status"}
 		init()
 
 	def query(self,text):
