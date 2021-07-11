@@ -2,7 +2,6 @@ from wit import Wit
 from colorama import Fore, Back, Style, init
 import requests
 
-
 class Easygit:
 	def __init__(self, access_token="TG2TPBING3AATILZB5KZN4DKRPRTEARE"):
 		self.access_token = access_token
