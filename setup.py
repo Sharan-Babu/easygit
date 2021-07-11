@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.4'
+VERSION = '1.0.0'
 DESCRIPTION = 'Library to learn git'
 LONG_DESCRIPTION = 'A package that allows to query git commands easily'
 
@@ -24,7 +24,7 @@ setup(
     install_requires=['wit', 'colorama'],
     keywords=['python', 'chatbot', 'git', 'interactive terminal'],
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Stable",
         "Intended Audience :: Developers",
         'Topic :: Software Development :: Build Tools',
         'License :: OSI Approved :: MIT License',
