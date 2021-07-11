@@ -22,7 +22,7 @@ pip install colorama wit
 git clone https://github.com/Sharan-Babu/easygit.git
 ~~~
 
-## Versioning
+## Versioning [![PyPI version](https://badge.fury.io/py/easygit.svg)](https://badge.fury.io/py/easygit)
 You can download specific versions of the library [here](https://github.com/Sharan-Babu/easygit/releases).
 
 ## Overview
