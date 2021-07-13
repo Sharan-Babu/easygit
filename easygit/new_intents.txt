@@ -15,3 +15,6 @@ What is the syntax/command for cloning a repository in git?
 Intent name and response: git_branch=git branch <branch_name>.
 How to create a new branch?
 New branch syntax?
+
+##
+Intent name and response:
