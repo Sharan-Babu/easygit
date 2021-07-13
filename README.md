@@ -8,16 +8,16 @@ Generate git syntax, commands by interacting with the terminal in English.
 
 This repo is also meant to be a reference for learning how to create libraries in Python and use various features that Github provides like Github Actions, Projects and Releases. Well detailed notes on the same can be found [here](https://github.com/Sharan-Babu/easygit/wiki).
 
+## Installation
+~~~
+pip install easygit
+~~~
+
 ## How to use:
 ~~~python
 from easygit import Easygit
 git = Easygit()
 git.interactive()
-~~~
-
-## Installation
-~~~
-pip install easygit
 ~~~
 
 ## Upgrade Package to latest version
