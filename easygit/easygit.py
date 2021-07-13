@@ -27,7 +27,7 @@ class Easygit:
 
 	def process(self,text):
 		if text == 'git_clone':
-			self.green_print("git clone <repo>")
+			self.green_print("git clone <repository_web_url>")
 		elif text == 'git_init':
 			self.green_print("git init")
 		elif text == 'git_clone':
