@@ -2,9 +2,9 @@
 
 Generate git syntax, commands by interacting with the terminal in English.
 
-**Documentation**: [Link](https://github.com/Sharan-Babu/easygit/wiki/Documentation)
+[**Documentation**](https://github.com/Sharan-Babu/easygit/wiki/Documentation) | [**Contribution Guidelines**](https://github.com/Sharan-Babu/easygit/wiki/Contribution) | [**Releases**](https://github.com/Sharan-Babu/easygit/releases) | [**Wiki**](https://github.com/Sharan-Babu/easygit/wiki)
 
-**Contribution Guidelines**: [Link](https://github.com/Sharan-Babu/easygit/wiki/Contribution)
+
 
 This repo is also meant to be a reference for learning how to create libraries in Python and use various features that Github provides like Github Actions, Projects and Releases. Well detailed notes on the same can be found [here](https://github.com/Sharan-Babu/easygit/wiki).
 
