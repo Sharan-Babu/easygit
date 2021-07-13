@@ -70,8 +70,7 @@ Enter your query:
 MIT License
 
 ## Awesome Contributors
-[Sharan Babu](https://github.com/Sharan-Babu)
-
+[Sharan Babu](https://github.com/Sharan-Babu) <br>
 [Silvoj Rajesh](https://github.com/rajeshsilvoj)
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
