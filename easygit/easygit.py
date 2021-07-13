@@ -14,7 +14,7 @@ class Easygit:
 			response = self.client.message(text)
 			intent_length = len(response['intents'])
 			if intent_length == 0:
-				intent = "Try another query"
+				intent = "Try another query or visit https://git-scm.com/docs"
 				self.red_print(intent)
 			else:	
 				intent = response['intents'][0]['name']
