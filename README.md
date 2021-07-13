@@ -65,6 +65,7 @@ Interactive mode:
 
 Enter your query: 
 ~~~
+![carbon](https://user-images.githubusercontent.com/65604809/125470522-8da84acf-0e7e-450e-927a-2484ffde3732.png)
 
 ## License
 MIT License
