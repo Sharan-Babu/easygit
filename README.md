@@ -4,7 +4,7 @@ Generate git syntax, commands by interacting with the terminal in English.
 
 [**Documentation**](https://github.com/Sharan-Babu/easygit/wiki/Documentation) | [**Contribution Guidelines**](https://github.com/Sharan-Babu/easygit/wiki/Contribution) | [**Releases**](https://github.com/Sharan-Babu/easygit/releases) | [**Wiki**](https://github.com/Sharan-Babu/easygit/wiki)
 
-<!-- ![WhatsApp Image 2021-07-14 at 15 41 54 (1)](https://user-images.githubusercontent.com/65604809/125605962-6bf6bd89-43af-4e41-8e79-d99a92f064f6.jpeg)
+
 
 ![WhatsApp Image 2021-07-14 at 15 41 54 (1)](https://user-images.githubusercontent.com/65604809/125605997-d1ef8df4-8eb9-4fab-b1b4-8dcee7d5afa5.jpeg)
 
