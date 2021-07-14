@@ -11,7 +11,6 @@ VERSION = '1.0.3'
 DESCRIPTION = 'Library to learn git'
 LONG_DESCRIPTION = 'A package that allows to query git commands easily'
 
-# Setting up
 setup(
     name="easygit",
     version=VERSION,
